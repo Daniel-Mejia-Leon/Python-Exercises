@@ -39,7 +39,11 @@ def es_palindromo(x):
     if word == word[::-1]:
         print(word[::-1] + " es palindromo")
     else: print("no es palindromo")
-
+        
+#una manera mas corta de hacerlo seria asi (aporte)
+def es_palindromo_corto(x):
+    return print(x == x[::-1])
+        
 # 6- Definir una función inversa() que calcule la inversión de una cadena.
 # Por ejemplo la cadena "estoy probando" debería devolver la cadena "odnaborp yotse"
 
